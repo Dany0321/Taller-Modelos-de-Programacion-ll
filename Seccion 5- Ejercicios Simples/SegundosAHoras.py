@@ -1,0 +1,6 @@
+s =  input("Ingrese un tiempo en segundos : ")
+s = float (s)
+h = float (int (s/3600))
+m = float (int ((s-(h*3600))/60))
+sec = s - (h*3600) - (m*60)
+print ("Su tiempo es "+ str(int(h)) + " horas: " + str(int(m)) + " minutos: " + str(int(sec)) + " seconds:")
